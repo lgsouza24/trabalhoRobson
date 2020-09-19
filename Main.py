@@ -42,12 +42,12 @@ def somar(value1, value2):
     try:
         valor1 = int(value1)
     except:
-        return 'Primeiro valor inválido.'
+        return 'Entre com o primeiro valor correto, valor invalido.'
 
     try:
         valor2 = int(value2)
     except:
-        return 'Segundo valor inválido.'
+        return 'Entre com o segundo valor correto, valor invalido.'
 
     ret = {"Resultado": valor1 + valor2}
 
@@ -62,12 +62,12 @@ def subtraction(value1, value2):
     try:
         valor1 = int(value1)
     except:
-        return 'Primeiro valor inválido.'
+        return 'Entre com o primeiro valor correto, valor invalido.'
 
     try:
         valor2 = int(value2)
     except:
-        return 'Segundo valor inválido.'
+        return 'Entre com o segundo valor correto, valor invalido.'
 
     ret = {"Resultado": valor1 - valor2}
 
@@ -82,12 +82,12 @@ def division(value1, value2):
     try:
         valor1 = int(value1)
     except:
-        return 'Primeiro valor inválido.'
+        return 'Entre com o primeiro valor correto, valor invalido.'
 
     try:
         valor2 = int(value2)
     except:
-        return 'Segundo valor inválido.'
+        return 'Entre com o segundo valor correto, valor invalido.'
 
     try:
         ret = {"Resultado": valor1 / valor2}
@@ -105,12 +105,12 @@ def multiplication(value1, value2):
     try:
         valor1 = int(value1)
     except:
-        return 'Primeiro valor inválido.'
+        return 'Entre com o primeiro valor correto, valor invalido.'
 
     try:
         valor2 = int(value2)
     except:
-        return 'Segundo valor inválido.'
+        return 'Entre com o segundo valor correto, valor invalido.'
 
     ret = {"Resultado": valor1 * valor2}
 
@@ -125,7 +125,7 @@ def squareroot(value):
     try:
         valor1 = int(value)
     except:
-        return 'Valor inválido.'
+        return 'Entre com um valor de raiz quadrada correto, valor invalido.'
 
     ret = {"Resultado": sqrt(valor1)}
 
@@ -140,7 +140,7 @@ def power(base, exponent):
     try:
         li_base = int(base)
     except:
-        return 'Base Inválida.'
+        return 'Entre com um valor Base correto, valor invalido.'
 
     try:
         li_exponent = int(exponent)
@@ -159,9 +159,9 @@ def power(base, exponent):
 def arithmeticaverage(value1):
 
     try:
-        array = [int(numeros) for numeros in value1.split(';')]
+        array = [float(numeros) for numeros in value1.split(';')]
     except:
-        return 'A sequencia não possui somente números'
+        return 'A sequencia deve possuir somente números.'
 
     ret = {"Resultado": sum(array) / len(array)}
 
@@ -177,7 +177,7 @@ def harmonicmean(value1):
     try:
         array = [1 / int(numeros) for numeros in value1.split(';')]
     except:
-        return 'A sequencia não possui somente números'
+        return 'A sequencia deve possuir somente números.'
 
 
     ret = {"Resultado": len(array) / sum(array)}
@@ -196,7 +196,7 @@ def mod(value1):
     try:
         array = [int(numeros) for numeros in value1.split(';')]
     except:
-        return 'A sequencia não possui somente números'
+        return 'A sequencia deve possuir somente números.'
 
     for numeros in array:
         try:
