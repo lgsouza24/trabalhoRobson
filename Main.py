@@ -15,15 +15,16 @@ app.config['JSON_AS_ASCII'] = False
 @app.route('/')
 def root():
     return 'Digite qual operação gostaria de fazer entre as opções <br> <br>' + \
+            '---------------------------------------------------------------------------------------' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/somar/primeirovalor/segundovalor <br>' + \
-           'https://trab-robson-wallace-d27hec6.herokuapp.com/subtraction/primeirovalor/segundovalor <br>' + \
-           'https://trab-robson-wallace-d27hec6.herokuapp.com/division/primeirovalor/segundovalor <br>' + \
-           'https://trab-robson-wallace-d27hec6.herokuapp.com/multiplication/primeirovalor/segundovalor <br>' + \
-           'https://trab-robson-wallace-d27hec6.herokuapp.com/squareroot/valor <br>' + \
-           'https://trab-robson-wallace-d27hec6.herokuapp.com/power/base/expoente <br>' + \
-           'https://trab-robson-wallace-d27hec6.herokuapp.com/arithmeticaverage/primeirovalor;segundo;terceiro;... <br>' + \
-           'https://trab-robson-wallace-d27hec6.herokuapp.com/harmonicmean/primeirovalor;segundo;terceiro;... <br>' + \
-           'https://trab-robson-wallace-d27hec6.herokuapp.com/mod/primeirovalor;segundo;terceiro;... <br>'
+           'https://dsdtrabalho-gustavo.herokuapp.com/subtrair/primeirovalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/dividir/primeirovalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/multiplicar/primeirovalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/raizQuadrada/valor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/potencia/base/expoente <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/mediaAritmetica/primeirovalor;segundo;terceiro;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/mediaHarmonica/primeirovalor;segundo;terceiro;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/moda/primeirovalor;segundo;terceiro;... <br>'
 
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -50,7 +51,7 @@ def somar(value1, value2):
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-@app.route('/subtraction/<value1>/<value2>', methods=['GET'])
+@app.route('/subtrair/<value1>/<value2>', methods=['GET'])
 def subtraction(value1, value2):
     try:
         valor1 = int(value1)
@@ -70,7 +71,7 @@ def subtraction(value1, value2):
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-@app.route('/division/<value1>/<value2>', methods=['GET'])
+@app.route('/dividir/<value1>/<value2>', methods=['GET'])
 def division(value1, value2):
     try:
         valor1 = int(value1)
@@ -93,7 +94,7 @@ def division(value1, value2):
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-@app.route('/multiplication/<value1>/<value2>', methods=['GET'])
+@app.route('/multiplicar/<value1>/<value2>', methods=['GET'])
 def multiplication(value1, value2):
     try:
         valor1 = int(value1)
@@ -113,7 +114,7 @@ def multiplication(value1, value2):
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-@app.route('/squareroot/<value>', methods=['GET'])
+@app.route('/raizQuadrada/<value>', methods=['GET'])
 def squareroot(value):
     try:
         valor1 = int(value)
@@ -128,7 +129,7 @@ def squareroot(value):
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-@app.route('/power/<base>/<exponent>', methods=['GET'])
+@app.route('/potencia/<base>/<exponent>', methods=['GET'])
 def power(base, exponent):
     try:
         li_base = int(base)
@@ -148,7 +149,7 @@ def power(base, exponent):
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-@app.route('/arithmeticaverage/<value1>', methods=['GET'])
+@app.route('/mediaAritmetica/<value1>', methods=['GET'])
 def arithmeticaverage(value1):
 
     try:
@@ -164,7 +165,7 @@ def arithmeticaverage(value1):
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-@app.route('/harmonicmean/<value1>', methods=['GET'])
+@app.route('/mediaHarmonica/<value1>', methods=['GET'])
 def harmonicmean(value1):
 
     try:
