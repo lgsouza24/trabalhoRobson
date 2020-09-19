@@ -14,7 +14,7 @@ app.config['JSON_AS_ASCII'] = False
 
 @app.route('/')
 def root():
-    return '<center> Copie e cole na barra de endereço, qual operação deseja fazer entre as opções abaixo: <br>' + \
+    return '<center> Copie e cole na barra de endereço, a operação que deseja fazer entre as opções abaixo: <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/somar/digite 1ºvalor/digite 2ºvalor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
