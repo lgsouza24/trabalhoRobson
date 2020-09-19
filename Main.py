@@ -16,23 +16,23 @@ app.config['JSON_AS_ASCII'] = False
 def root():
     return '<center> Digite qual operação gostaria de fazer entre as opções <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/somar/digite 1ºvalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/somar/digite 1ºvalor/digite 2ºvalor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/subtrair/digite 1ºvalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/subtrair/digite 1ºvalor/digite 2ºvalor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/dividir/digite 1ºvalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/dividir/digite 1ºvalor/digite 2ºvalor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/multiplicar/digite 1ºvalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/multiplicar/digite 1ºvalor/digite 2ºvalor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/raizQuadrada/valor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/raizQuadrada/digite o valor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/potencia/base/expoente <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/mediaAritmetica/digite 1ºvalor;segundo;terceiro;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/mediaAritmetica/digite 1ºvalor;2ºvalor;3ºvalor;... <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/mediaHarmonica/digite 1ºvalor;segundo;terceiro;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/mediaHarmonica/digite 1ºvalor;2ºvalor;3ºvalor;... <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/moda/digite 1ºvalor;segundo;terceiro;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/moda/digite 1ºvalor;2ºvalor;3ºvalor;... <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' 
 
 
