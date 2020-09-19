@@ -15,17 +15,25 @@ app.config['JSON_AS_ASCII'] = False
 @app.route('/')
 def root():
     return 'Digite qual operação gostaria de fazer entre as opções <br>' + \
-            '--------------------------------------------------------------------------------------- <br> <br>' + \
+           '--------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/somar/primeirovalor/segundovalor <br>' + \
+           '--------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/subtrair/primeirovalor/segundovalor <br>' + \
+           '--------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/dividir/primeirovalor/segundovalor <br>' + \
+           '--------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/multiplicar/primeirovalor/segundovalor <br>' + \
+           '--------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/raizQuadrada/valor <br>' + \
+           '--------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/potencia/base/expoente <br>' + \
+           '--------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/mediaAritmetica/primeirovalor;segundo;terceiro;... <br>' + \
+           '--------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/mediaHarmonica/primeirovalor;segundo;terceiro;... <br>' + \
+           '--------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/moda/primeirovalor;segundo;terceiro;... <br>' + \
-               'Fechar o programa'
+           '--------------------------------------------------------------------------------------------------- <br>'
 
 
 # ----------------------------------------------------------------------------------------------------------------------
