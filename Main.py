@@ -16,23 +16,23 @@ app.config['JSON_AS_ASCII'] = False
 def root():
     return '<center> Digite qual operação gostaria de fazer entre as opções <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/somar/primeirovalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/somar/digite 1ºvalor/segundovalor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/subtrair/primeirovalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/subtrair/digite 1ºvalor/segundovalor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/dividir/primeirovalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/dividir/digite 1ºvalor/segundovalor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/multiplicar/primeirovalor/segundovalor <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/multiplicar/digite 1ºvalor/segundovalor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/raizQuadrada/valor <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/potencia/base/expoente <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/mediaAritmetica/primeirovalor;segundo;terceiro;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/mediaAritmetica/digite 1ºvalor;segundo;terceiro;... <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/mediaHarmonica/primeirovalor;segundo;terceiro;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/mediaHarmonica/digite 1ºvalor;segundo;terceiro;... <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/moda/primeirovalor;segundo;terceiro;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/moda/digite 1ºvalor;segundo;terceiro;... <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' 
 
 
