@@ -14,8 +14,8 @@ app.config['JSON_AS_ASCII'] = False
 
 @app.route('/')
 def root():
-    return 'Digite qual operação gostaria de fazer entre as opções <br> <br>' + \
-            '---------------------------------------------------------------------------------------' + \
+    return 'Digite qual operação gostaria de fazer entre as opções <br>' + \
+            '--------------------------------------------------------------------------------------- <br> <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/somar/primeirovalor/segundovalor <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/subtrair/primeirovalor/segundovalor <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/dividir/primeirovalor/segundovalor <br>' + \
