@@ -24,7 +24,8 @@ def root():
            'https://dsdtrabalho-gustavo.herokuapp.com/potencia/base/expoente <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/mediaAritmetica/primeirovalor;segundo;terceiro;... <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/mediaHarmonica/primeirovalor;segundo;terceiro;... <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/moda/primeirovalor;segundo;terceiro;... <br>'
+           'https://dsdtrabalho-gustavo.herokuapp.com/moda/primeirovalor;segundo;terceiro;... <br>' + \
+               'Fechar o programa'
 
 
 # ----------------------------------------------------------------------------------------------------------------------
