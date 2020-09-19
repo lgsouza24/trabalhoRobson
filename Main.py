@@ -27,11 +27,11 @@ def root():
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
            'https://dsdtrabalho-gustavo.herokuapp.com/potencia/base/expoente <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/mediaAritmetica/1ºvalor;2ºvalor;3ºvalor;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/mediaAritmetica/digite 1ºvalor;2ºvalor;3ºvalor;... <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/mediaHarmonica/1ºvalor;2ºvalor;3ºvalor;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/mediaHarmonica/digite 1ºvalor;2ºvalor;3ºvalor;... <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>' + \
-           'https://dsdtrabalho-gustavo.herokuapp.com/mod/1ºvalor;2ºvalor;3ºvalor;... <br>' + \
+           'https://dsdtrabalho-gustavo.herokuapp.com/moda/digite 1ºvalor;2ºvalor;3ºvalor;... <br>' + \
            '------------------------------------------------------------------------------------------------------------------- <br>'
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -188,7 +188,7 @@ def harmonicmean(value1):
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-@app.route('/mod/<value1>', methods=['GET'])
+@app.route('/moda/<value1>', methods=['GET'])
 def mod(value1):
 
     dicionario = {}
